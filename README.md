@@ -3,8 +3,8 @@
 # BeautifyRuby
 
 ### Update
-fix 'htmlbeautifier' bug
 ```
+  fix 'htmlbeautifier' bug
   gem install htmlbeautifier -v 1.1.0
 
   Click the Preferences > Browse Packages
