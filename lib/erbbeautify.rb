@@ -2,9 +2,8 @@ require 'htmlbeautifier'
 
 def beautify(input, output)
   dest = ""
-  beautifier = HtmlBeautifier::Beautifier.new(dest)
   begin
-    beautifier.scan(input)
+    dest = HtmlBeautifier.beautify(input)
     dest << "\n"
   rescue
     dest = ""
